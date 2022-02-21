@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.model
 
 # C extensions
 *.so
@@ -24,6 +25,8 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.bin
+*.pt
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -112,3 +115,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data
+*.csv
+*.tsv
+*.feather
+*.json
